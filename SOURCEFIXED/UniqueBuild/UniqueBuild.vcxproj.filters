@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Project Files">
+      <UniqueIdentifier>{6d2e5643-ff08-47af-ae09-c1fdf1e2d818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Features">
+      <UniqueIdentifier>{6627d9e7-5720-4145-acd1-01bf6cca98d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Hooks">
+      <UniqueIdentifier>{c2934cf0-935f-4d9d-8ef4-15b8c4a97747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Valve">
+      <UniqueIdentifier>{9322b1e1-76b8-4c69-91de-ff071400b89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Tools">
+      <UniqueIdentifier>{4aa24652-dd95-481c-be23-d27aff24754e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Main">
+      <UniqueIdentifier>{f502db4f-e2e2-4161-84bf-8f70d5d49de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Config">
+      <UniqueIdentifier>{731c1c5a-bf2b-42c7-9b8c-55f2bad3551f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Math">
+      <UniqueIdentifier>{6b0cae41-7757-4556-bac2-7706ceaa4810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Features\Aimbot">
+      <UniqueIdentifier>{d8e8d683-61ac-4f83-8967-f838505a961d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Features\Misc">
+      <UniqueIdentifier>{0d3e45fc-2342-4b3b-b609-ae482b0701fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Features\Triggerbot">
+      <UniqueIdentifier>{358da161-7e4c-4b56-833c-60102be2b47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Features\Menu">
+      <UniqueIdentifier>{2a5a726b-5bf2-4908-a658-391750c98531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Features\Wallhack">
+      <UniqueIdentifier>{e7cd6f92-88c4-4e4b-a85c-e12841714764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Hooks\CreateMove">
+      <UniqueIdentifier>{4b976aaa-93c7-4bf9-97ce-6025308b8a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Hooks\PaintTraverse">
+      <UniqueIdentifier>{7b568f81-43f3-4aae-9404-56ad1f63d807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Hooks\PlaySound">
+      <UniqueIdentifier>{5845b7af-55dc-4a1a-9585-a37ce010fab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Tools\Draw Manager">
+      <UniqueIdentifier>{3eba5845-dc97-4de7-9cc9-295698e5e460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Tools\NetVar Manager">
+      <UniqueIdentifier>{d0fc9995-1b4d-48d3-ba8c-f166035f6f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Tools\Utilities">
+      <UniqueIdentifier>{2ee7cc0d-d95d-493f-9606-5216fea7d56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Tools\VMT Manager">
+      <UniqueIdentifier>{af3f9288-6b4a-455f-b274-6095b27707a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Valve\SDK">
+      <UniqueIdentifier>{773d119a-1924-4534-be4f-7d8489a32036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Valve\Other">
+      <UniqueIdentifier>{f4d4244c-3b1f-43b7-bffe-37f4a79d8746}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VMTStuff.cpp">
+      <Filter>Project Files\Tools\VMT Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Project Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CVar.cpp">
+      <Filter>Project Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Project Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Project Files\Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Other.cpp">
+      <Filter>Project Files\Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Project Files\Features\Triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Project Files\Features\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Wallhack.cpp">
+      <Filter>Project Files\Features\Wallhack</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMove.cpp">
+      <Filter>Project Files\Hooks\CreateMove</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTraverse.cpp">
+      <Filter>Project Files\Hooks\PaintTraverse</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySound.cpp">
+      <Filter>Project Files\Hooks\PlaySound</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>Project Files\Tools\Draw Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVar.cpp">
+      <Filter>Project Files\Tools\NetVar Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Project Files\Tools\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum_crc.cpp">
+      <Filter>Project Files\Valve\Other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VMTStuff.h">
+      <Filter>Project Files\Tools\VMT Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Project Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CVar.h">
+      <Filter>Project Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Project Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Project Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Project Files\Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Other.h">
+      <Filter>Project Files\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Triggerbot.h">
+      <Filter>Project Files\Features\Triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Project Files\Features\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Wallhack.h">
+      <Filter>Project Files\Features\Wallhack</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMove.h">
+      <Filter>Project Files\Hooks\CreateMove</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintTraverse.h">
+      <Filter>Project Files\Hooks\PaintTraverse</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySound.h">
+      <Filter>Project Files\Hooks\PlaySound</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>Project Files\Tools\Draw Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVar.h">
+      <Filter>Project Files\Tools\NetVar Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Project Files\Tools\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Project Files\Valve\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKStuff.h">
+      <Filter>Project Files\Valve\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv2.h">
+      <Filter>Project Files\Valve\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="checksum_crc.h">
+      <Filter>Project Files\Valve\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_common2.h">
+      <Filter>Project Files\Valve\Other</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
